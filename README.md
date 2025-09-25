@@ -107,12 +107,6 @@ Pour introduire une authentification MongoDB, ajoutez `MONGO_INITDB_ROOT_USERNAM
 3. Ouvrir le notebook et exécuter la première cellule : la sortie doit indiquer le nombre de documents et aucune erreur.
 4. Optionnel : connecter `mongosh` ou `MongoDB Compass` à `mongodb://localhost:27017` pour vérifier la collection `reports`.
 
-## Bonnes pratiques Git
-
-- Travaillez sur une branche de fonctionnalité (ex. `feature/docker-mongo`) puis fusionnez dans `main` après revue.
-- Ne conservez dans `main` que les fichiers nécessaires (supprimez les fichiers temporaires, checkpoints Jupyter, etc.).
-- Ajoutez un `.gitignore` pour exclure `__pycache__/`, `.ipynb_checkpoints/` et autres artefacts.
-
 ## Ressources utiles
 
 - [Documentation Docker Compose](https://docs.docker.com/compose/)
